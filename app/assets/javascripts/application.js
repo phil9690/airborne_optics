@@ -20,6 +20,7 @@ a = function() {
   $(".parallax").parallax();
   $(".dropdown-button").dropdown();
   $(".button-collapse").sideNav();
+  Waves.displayEffect();
 }
 
 $(document).on("ready page:load", a);
