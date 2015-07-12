@@ -23,15 +23,25 @@ $navbar-font-color: #444;
 .nav-wrapper {
 }
 
-.icon-block .material-icons {
-  padding: 0 1em;
-  font-size: inherit;
-}
-
-
 .parallax-container {
   min-height: 380px;
   height: auto;
+}
+
+.index-services {
+  i {
+    @extend .teal, .white-text, .circle, .z-depth-1;
+    @include transition(.8s);
+    padding: 0.5em;
+    font-size: 1em;
+    &:hover {
+      @extend .z-depth-4;
+    }
+
+  }
+  h5 {
+    @extend .center, .teal-text, .text-lighten-2;
+  }
 }
 
 #index-banner {
