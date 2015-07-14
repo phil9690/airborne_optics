@@ -6,4 +6,13 @@ class StaticPagesController < ApplicationController
   def contact
   end
 
+  def photography
+  end
+
+  def videography
+  end
+
+  def editing
+  end
+
 end

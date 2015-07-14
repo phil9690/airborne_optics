@@ -1,12 +1,13 @@
 <ul id="services-dropdown" class="dropdown-content">
-  <li><a href="#!">Aerial photography</a></li>
-  <li><a href="#!">Aerial videography</a></li>
+  <li><%= link_to "Aerial photography", aerial_photography_path %></li>
   <li class="divider"></li>
-  <li><a href="#!">Video editing</a></li>
+  <li><%= link_to "Aerial vidography", aerial_videography_path %></li>
+  <li class="divider"></li>
+  <li><%= link_to "Video editing", video_editing_path %></li>
 </ul>
 <nav class="white" role="navigation">
   <div class="nav-wrapper container">
-    <a href=<%= "#{root_path}" %> class="brand-logo">Airbourne Optics</a>
+    <%= link_to "Airborne Optics", root_path, class: "brand-logo" %>
     <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
     <ul class="right hide-on-med-and-down">
       <li class="active"><%= link_to "Home", root_path %></li>
@@ -15,9 +16,14 @@
       <li><%= link_to "Contact us", contact_path %></li>
     </ul>
     <ul class="side-nav" id="mobile-nav">
-      <li><a href="#">Aerial photography</a></li>
-      <li><a href="#">Aerial videography</a></li>
-      <li><a href="#">Video editing</a></li>
+      <li><%= link_to "Aerial photography", aerial_photography_path %></li>
+      <li class="divider"></li>
+      <li><%= link_to "Aerial vidography", aerial_videography_path %></li>
+      <li class="divider"></li>
+      <li><%= link_to "Video editing", video_editing_path %></li>
+      <li class="divider"></li>
+      <li><%= link_to "Contact us", contact_path %></li>
+      <li class="divider"></li>
     </ul>
   </div>
 </nav>
