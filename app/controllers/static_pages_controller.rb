@@ -15,4 +15,7 @@ class StaticPagesController < ApplicationController
   def editing
   end
 
+  def gallery
+  end
+
 end

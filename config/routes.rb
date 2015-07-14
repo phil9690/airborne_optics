@@ -5,5 +5,6 @@ Rails.application.routes.draw do
   get 'aerial-photography' => 'static_pages#photography'
   get 'aerial-videography' => 'static_pages#videography'
   get 'video-editing' => 'static_pages#editing'
+  get 'gallery' => 'static_pages#gallery'
 
 end

@@ -14,6 +14,7 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require materialize-sprockets
+//= require modernizr
 //= require_tree .
 
 a = function() {
